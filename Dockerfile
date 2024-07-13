@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV KAFKA_VERSION 3.3.2
+ENV KAFKA_VERSION 3.7.1
 ENV SCALA_VERSION 2.13
 
 #Install openJDK and basic user
