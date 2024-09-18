@@ -9,8 +9,8 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV KAFKA_VERSION=3.3.2
-ENV SCALA_VERSION=2.13
+ENV KAFKA_VERSION 3.7.1
+ENV SCALA_VERSION 2.13
 
 #Install openJDK and basic user
 RUN apt-get update && apt-get install -y wget openjdk-11-jdk-headless && \
