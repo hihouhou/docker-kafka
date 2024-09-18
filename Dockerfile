@@ -7,7 +7,7 @@
 # Pull base image.
 FROM debian:latest
 
-MAINTAINER hihouhou < hihouhou@hihouhou.com >
+LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
 ENV KAFKA_VERSION=3.3.2
 ENV SCALA_VERSION=2.13
