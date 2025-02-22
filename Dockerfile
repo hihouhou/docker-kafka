@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV KAFKA_VERSION=3.7.1
+ENV KAFKA_VERSION=3.9.0
 ENV SCALA_VERSION=2.13
 
 #Install openJDK and basic user
